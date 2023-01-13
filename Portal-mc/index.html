@@ -1,0 +1,63 @@
+<html lang="en-US" dir="ltr">
+<head>
+    
+    <title>Name</title>    
+    
+        <meta charset="utf-8">
+    
+        <meta property="og:description" 
+        content="lorendum ipsum" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="your site name" />
+        <meta property="og:image" content="http://your link.com/src/img/bg.jpg" />
+        <meta property="og:image:secure_url" content="https://your link.com/src/img/bg.jpg" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="300" />
+        <meta name="keywords" content="Minecraft, Template, MC, Tatsu, SpIkE">
+        <meta name="theme-color" content="#19242d">  
+    
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+        <link rel="stylesheet" href="src/css/main.css" media="all">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter@1.1.1/dist/mc-player-counter.min.js"></script>
+        <script type="text/javascript" async="" src="src/js/main.js"></script>
+    </head>
+    <body>
+        <canvas id="loading"></canvas>
+        <div class="wrapper">
+            <div class="bg-top"></div>
+            <div class="menu">
+                <!-- Social-->
+                <span class="fa-2x fa-inverse f-fw hidden"><a href="https://twitter.com/"><li class="fab fa-twitter"></li></a></span>
+                <span class="fa-2x fa-inverse fa-fw hidden"><a href="https://facebook.com/"><li class="fab fab fa-facebook-f"></li></a></span>
+                <span class="fa-2x fa-inverse fa-fw hidden"><a href="https://discord.com/"><li class="fab fa-discord"></li></a></span>
+              <span class="fa fa-bars fa-2x fa-inverse f-fw"></span>
+                <!-- Social-->
+            </div>
+            <div class="content">
+                <div class="logo">
+                    <a href="#"><img src="src/img/logo.png"></a>
+                </div>
+                <!-- Links-->
+                <div class="icons">
+                    <a href="/forum"><div class="forum"><h1>Forum</h1></div></a>
+                    <a href="/ban"><div class="ban"><h1>Ban</h1></div></a>
+                    <a href="/shop"><div class="shop"><h1>Shop</h1></div></a>
+                    <a href="/vote"><div class="vote"><h1>Vote</h1></div></a>
+                </div>
+                <!-- Links-->
+                <!-- Server counter-->
+                <div class="online">
+                    <h1>Join <span data-playercounter-ip="your server ip">0</span> player(s) at <h2 id="copy">your server ip</h2></h1>
+                    <button onclick="copyToClipboard('#copy')">Click to copy IP</button>
+                </div>
+                <!-- Server counter-->
+                </div>
+            <div class="bg-bottom"></div>
+        </div>
+    </body>
+</html>
